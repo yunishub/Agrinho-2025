@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conexão Campo-Cidade</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <input type="radio" name="fonte" id="fonte-normal" hidden checked>
+  <input type="radio" name="fonte" id="fonte-media" hidden>
+  <input type="radio" name="fonte" id="fonte-grande" hidden>
+
+  <!-- controle da fonte -->
+  <div class="controle-fontes">
+    <label for="fonte-normal" title="Fonte padrão">A</label>
+    <label for="fonte-media" title="Fonte média">A+</label>
+    <label for="fonte-grande" title="Fonte grande">A++</label>
+  </div>
+
+<div class="conteudo">
+      <nav class="menu-fixo">
+  <ul>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#impacto">Impacto</a></li>
+    <li><a href="#curiosidades">Curiosidades</a></li>
+  </ul>
+</nav>
+
+<style>
+.hero {
+  background-image:
+    linear-gradient(to top, rgba(36,173,109, 0.77), rgba(36,185,93) 23%, rgba(36,185,93, 0.1)),
+    url('https://cdn.pixabay.com/photo/2014/07/06/17/20/tractor-385681_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  font-size: 29px;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(36,185,93, 0), var(--gradiente-azvd));
+  pointer-events: none;
+}
+</style>
+
+<header class="hero">
+    <div class="hero-content">
+          <h1> Festejando a conexão campo cidade </h1>
+        <h4>Caminhos que se cruzam</h4>
+      <a href="#sobre" class="button">Saiba mais</a>
+    </div>
+  </header>
+
+  <section id="sobre" class="section">
+    <h1>Contextualização</h1>
+    <p>
+      O campo e a cidade são duas áreas fundamentais para a vida das pessoas, onde historicamente essa relação era vista por meio da divisão de trabalho intelectual e manual. No campo, encontramos extensas áreas de terra, onde são cultivados alimentos e criados animais. Esta área é caracterizada por ter uma menor densidade populacional e uma forte ligação com atividades agrícolas e pecuárias. As pessoas que vivem no campo geralmente trabalham na <strong>produção de alimentos</strong>, como frutas, legumes e verduras, além da <strong>criação de animais</strong> para fornecimento de carne, leite e outros produtos.
+Por outro lado, as cidades são ambientes com maior concentração de pessoas, muitas construções e uma variedade de <strong>comércios</strong> e <strong>serviços</strong>. A vida urbana é marcada pela presença de escolas, hospitais, lojas, fábricas e diversas outras facilidades que atendem às necessidades dos habitantes. A interdependência entre campo e cidade é crucial: enquanto o campo <strong>fornece</strong> os alimentos e matérias-primas necessárias para a sobrevivência das cidades, estas oferecem <strong>mercado consumidor</strong>, bens e serviços que não são produzidos no campo. Dessa forma, a relação entre campo e cidade é essencial para a manutenção do bem-estar e da qualidade de vida das pessoas.
+    </p>
+    <h1>Impactos econômicos</h1>
+    <p>Essa relação tem impacto direto na economia. A agricultura e a pecuária, por exemplo, são pilares do agronegócio brasileiro, que gera empregos, movimenta exportações e contribui fortemente para o PIB nacional. Quando o campo vai bem, isso se reflete na cidade — com mais alimentos, preços mais justos e dinamismo na economia urbana. Por outro lado, quando a cidade investe em infraestrutura, transporte e tecnologia, facilita o escoamento da produção rural e melhora as condições de vida no campo.</p>
+  <h1>Campo Desconectado</h1>
+  <p>Apesar de o Brasil ter um enorme potencial agrícola, a falta de acesso à tecnologia ainda é um dos maiores desafios para fortalecer a conexão entre o campo e a cidade. Em muitas regiões rurais, o acesso à internet é limitado ou inexistente, o que dificulta desde a educação até a modernização da produção. Sem tecnologia, o produtor rural enfrenta barreiras para melhorar seus métodos, acompanhar os preços de mercado ou até mesmo vender seus produtos diretamente, sem depender de intermediários.</p>
+    <h1>Interdependência</h1>
+  <p>
+    A interdependência entre campo e cidade é uma relação de dependência mútua, onde ambos os ambientes necessitam um do outro para suprir suas necessidades e é crucial para o bem-estar e a qualidade de vida de seus moradores. O campo fornece alimentos frescos e matérias-primas essenciais para a vida urbana. Sem a produção agrícola e pecuária, as cidades não teriam uma oferta adequada de alimentos e outros recursos fundamentais.
+Por outro lado, a cidade oferece um mercado consumidor para os produtos do campo. Os habitantes urbanos compram os alimentos e as matérias-primas produzidas no campo, garantindo a renda dos agricultores e pecuaristas. Além disso, a cidade fornece bens e serviços que não são produzidos no campo, como produtos industrializados, tecnologia, educação, saúde e entretenimento.  </p>
+  </section>
+
+  <section id="impacto" class="section">
+    <h2>Conclusão</h2>
+      <p> A conexão campo cidade é essencial para nossa vida. Entender a relação entre o campo e a cidade é fundamental para reconhecer como esses dois espaços se completam. Enquanto o campo garante a produção de alimentos e matérias-primas, a cidade oferece os serviços e o mercado que tornam essa produção viável. Essa troca constante mostra que nenhum dos dois funciona sozinho. Valorizar essa interdependência é respeitar o trabalho de quem vive no campo, reconhecer a importância da logística e, acima de tudo, compreender que a qualidade de vida nas cidades também começa com o cuidado e o respeito pela vida no campo. </p>
+  </section>
+
+  </section>
+  <section class="section" id="curiosidades">
+  <h2>Você sabia?</h2>
+  <details>
+    <summary><strong>No ano de 2006, mais de 30% dos alimentos consumidos nas cidades vieram de pequenas propriedades rurais.</strong></summary>
+    <p>Esse dado mostra a importância da agricultura familiar na segurança alimentar.</p>
+  </details>
+</section>
+
+<footer>
+    <p>&copy; Agrinho 2025. Uma iniciativa pela integração e sustentabilidade.</p>
+  </footer>
+  </div>
+  <a href="#" class="btn-topo" aria-label="Voltar ao topo">&uarr;</a>
+</body>
+</html>
