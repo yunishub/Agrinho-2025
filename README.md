@@ -33,7 +33,6 @@ O site tem como objetivo conscientizar os visitantes sobre a importância da int
 As imagens da galeria são obtidas de uso livre via [Pixabay](https://pixabay.com).
 
 ## 💬 Observações
-
 Uso da licença MIT.
 ---
 
